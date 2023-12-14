@@ -1,0 +1,92 @@
+.invest {
+    background-color: rgb(84, 164, 201);
+    text-align: center;
+    margin-bottom: 9%;
+    padding-top: 0.3em;
+    align-items: center;
+    
+}
+.titulo {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 4%;
+    font-weight: bold;
+    font-size:50px;
+}
+.text {
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 30px;
+}
+.textdois {
+    text-align: center; 
+    margin-bottom: 13%;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 30px;
+
+}
+.conta{
+    text-align: center;
+    width: 100%;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    margin-left: 45%;
+}
+
+.butao {
+    position:absolute;
+    
+}
+@media {
+    .conta{
+    width: 100%;
+    position:relative;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    }
+}
+
+@media (min-width:2500px) {
+    .conta {
+        width: 100%;
+        position:relative;
+        top: 50%;
+        left: 54%;
+        transform: translate(-50%,-50%);
+    }
+    .butao {
+        position:absolute;
+        
+    }
+}
+@media (min-width:1000px) and (max-width:1800px) {
+    .conta{
+        width: 100%;
+        position:relative;
+        top: 52%;
+        left: 48%;
+        transform: translate(-50%,-50%);
+    }
+    .butao {
+        position:absolute;
+        
+    }
+    @media (max-width:900px) {
+        .conta{
+        width: 100%;
+        position:relative;
+        top: 52%;
+        left: 48%;
+        transform: translate(-50%,-50%);
+    }
+    .butao {
+        position:absolute;
+        
+}
+}  
